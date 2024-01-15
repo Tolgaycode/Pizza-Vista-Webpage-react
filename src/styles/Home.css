@@ -18,19 +18,25 @@ color: white;
 font-size: 20px;
 padding: 40px;
 background-color: rgba(0, 0, 0, 0);
-backdrop-filter: blur(5px);
+backdrop-filter: blur(4px);
 border-radius: 30px;
+box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.507);
 
 }
 
 .order h1 {
+    letter-spacing: 3px;
     margin-bottom: 20px;
+    text-shadow: 3px 3px black;
+    text-transform: uppercase;
+
 }
 
 .order p {
     text-align: center;
     margin-bottom: 30px;
     max-width: 90vh;
+    text-shadow: 2px 2px black;
 }
 
 /* CSS */
@@ -59,7 +65,7 @@ border-radius: 30px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
+  text-shadow: 3px 3px black;
 }
 
 .button-53:focus {
@@ -86,6 +92,10 @@ border-radius: 30px;
     padding: .75rem 3rem;
     font-size: 1.25rem;
   }
+}
+
+.about a {
+  text-decoration: none;
 }
 
 .order a {

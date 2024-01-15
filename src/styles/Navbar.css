@@ -4,6 +4,7 @@
     justify-content: space-between;
     background-color: brown;
     padding: 5px 20px;
+    text-shadow: 2px 2px black;
 }
 
 .logo img {
@@ -18,6 +19,6 @@
 }
 
 .navbar a:hover {
-    color: black;
     text-decoration: underline;
+    color: rgba(255, 255, 255, 0.692);
 }

@@ -48,11 +48,11 @@ To run the project locally, follow these steps:
 The pizza shop web application consists of the following four pages:
 
 1.  Home Page: Displays featured pizzas, promotions, and a welcoming message.
-    ![Project Screenshot](https://prnt.sc/nGX-f0T5aodk)
+    ![Project Screenshot](./src/assets/Homepage.jpg)
 2.  Menu Page: Lists the available pizzas with images and descriptions.
 3.  About Page: Pizza shop details.
 4.  Contact Page: Provides contact information and a form for customer inquiries.
-    ![Project Screenshot](https://prnt.sc/aIFTIKtKohXq)
+    ![Project Screenshot](./src/assets/Contactpage.jpg)
 
 Feel free to explore each page and interact with the features. Screenshots of the application are available in the `screenshots` directory.
 

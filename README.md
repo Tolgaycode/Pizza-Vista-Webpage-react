@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Pizza Shop WebPage React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+I've created a web application for a pizza shop using React, consisting of four pages.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  Clone the repository to your local machine.
 
-### `npm run build`
+    bashCopy code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    `git clone https://github.com/Tolgaycode/pizza.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.  Navigate to the project directory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    bashCopy code
 
-### `npm run eject`
+    `cd pizza`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.  Install dependencies using npm.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    bashCopy code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    `npm install`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4.  Start the development server.
 
-## Learn More
+    bashCopy code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    `npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5.  Open your browser and visit `http://localhost:3000` to view the application.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The pizza shop web application consists of the following four pages:
 
-### Analyzing the Bundle Size
+1.  Home Page: Displays featured pizzas, promotions, and a welcoming message.
+    ![Project Screenshot](https://prnt.sc/nGX-f0T5aodk)
+2.  Menu Page: Lists the available pizzas with images and descriptions.
+3.  About Page: Pizza shop details.
+4.  Contact Page: Provides contact information and a form for customer inquiries.
+    ![Project Screenshot](https://prnt.sc/aIFTIKtKohXq)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to explore each page and interact with the features. Screenshots of the application are available in the `screenshots` directory.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Thank you for considering contributing to this project! To contribute, follow these steps:
 
-### Advanced Configuration
+1.  Fork the repository on GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2.  Clone your forked repository to your local machine.
 
-### Deployment
+    bashCopy code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    `git clone https://github.com/Tolgaycode/pizza.git`
 
-### `npm run build` fails to minify
+3.  Create a new branch for your feature or bug fix.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    bashCopy code
+
+    `git checkout -b feature-name`
+
+4.  Make changes and commit them.
+
+    bashCopy code
+
+    `git commit -m "Add your feature or fix description"`
+
+5.  Push your changes to your forked repository.
+
+    bashCopy code
+
+    `git push origin feature-name`
+
+6.  Open a pull request on GitHub.
+
+Please make sure to follow the [code of conduct] when contributing.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
